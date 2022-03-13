@@ -1,4 +1,8 @@
+Live Site URL: [https://artimys-qr-code-component.netlify.app](https://artimys-qr-code-component.netlify.app/)
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ca7e8230-fa95-4621-ab29-d9180ef60e0f/deploy-status)](https://app.netlify.com/sites/artimys-qr-code-component/deploys)
+
+<br>
 
 
 # Frontend Mentor - QR code component solution
@@ -17,7 +21,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -30,7 +33,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - Solution URL: [https://github.com/artimys/qr-code-component](https://github.com/artimys/qr-code-component)
 - Live Site URL: [https://artimys-qr-code-component.netlify.app](https://artimys-qr-code-component.netlify.app/)
 
-# if npmk
+---
 
 ## My process
 
@@ -67,6 +70,7 @@ gulp build
 - [Youtube: Kevin Powell's Sass and BrowserSync basic setup](https://www.youtube.com/watch?v=QgMQeLymAdU&list=PLEj3XJWjdcsIIFqAAD81lEO1rumJkQsJT&index=2)
 - [Gulp 4 walktrough detail](https://coder-coder.com/gulp-4-walk-through/) for extra gulp plugins and setup
 
+---
 
 ## Author
 
