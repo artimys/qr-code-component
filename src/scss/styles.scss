@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+:root {
+  --white: hsl(0, 0%, 100%);
+  --light-gray: hsl(212, 45%, 89%);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+}
+
+$white: hsl(0, 0%, 100%);
+$lightGray: hsl(212, 45%, 89%);
+$grayishBlue: hsl(220, 15%, 55%);
+$darkBlue: hsl(218, 44%, 22%);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--light-gray);
+  font-family: 'Outfit', sans-serif;
+  font-size: 15px;
+
+  // Center card on body
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+
+.card {
+  width: 320px;
+  padding: 1em;
+  background-color: var(--white);
+  border-radius: 20px;
+
+  // https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow#syntax
+
+  /* offset-x | offset-y | blur-radius | spread-radius | color
+    - use an intense color at first to test your shadow
+    - after, took grayish-blue hsl value and converted to rgb
+  */
+  box-shadow: 0px 5px 15px 10px rgb(123, 135, 157, 0.1);
+  // box-shadow: 0px 5px 15px 0 red; // my shadow test
+
+  &__image {
+    width: 100%;
+    border-radius: .95em;
+  }
+
+  &__title {
+    font-size: 0.7rem;
+    color: var(--dark-blue);
+    text-align: center;
+    padding: 1.7em 0 1.5em;
+  }
+
+  &__body {
+    font-size: 0.96rem;
+    color: var(--grayish-blue);
+    text-align: center;
+    padding: 0 1em 1.5em;
+  }
+}
+
+
+
+
+.attribution {
+  position: absolute;
+  background: white;
+  width: 200px;
+  bottom: 0;
+  right: 0;
+  padding: 1em;
+  border-top-left-radius: 5px;
+  font-size: 0.7rem;
+  text-align: left;
+  color: hsl(228, 45%, 44%);
+}
