@@ -1,3 +1,6 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ca7e8230-fa95-4621-ab29-d9180ef60e0f/deploy-status)](https://app.netlify.com/sites/artimys-qr-code-component/deploys)
+
+
 # Frontend Mentor - QR code component solution
 
 This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
@@ -27,6 +30,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - Solution URL: [https://github.com/artimys/qr-code-component](https://github.com/artimys/qr-code-component)
 - Live Site URL: [https://artimys-qr-code-component.netlify.app](https://artimys-qr-code-component.netlify.app/)
 
+# if npmk
 
 ## My process
 
