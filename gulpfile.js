@@ -5,7 +5,8 @@ const browserSync = require("browser-sync").create();
 // File paths
 const files = {
 	scssPath: 'src/scss/**/*.scss',
-  distPath: 'dist'
+  publicPath: '_site',
+  distPath: '_site'
 };
 
 
@@ -25,13 +26,14 @@ function style() {
 function watch() {
   browserSync.init({
     server: {
-      baseDir: './'
+      baseDir: files.publicPath
     }
   });
 
   gulp.watch(files.scssPath, style);
-  gulp.watch('./*.html').on('change', browserSync.reload);
+  gulp.watch(files.publicPath + '/*.html').on('change', browserSync.reload);
 }
 
 
 exports.watch = watch;
+exports.build = style;
