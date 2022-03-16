@@ -17,6 +17,7 @@ body {
   background-color: var(--light-gray);
   font-family: "Outfit", sans-serif;
   font-size: 15px;
+  font-weight: 400;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -34,10 +35,6 @@ body {
   padding: 1em;
   background-color: var(--white);
   border-radius: 20px;
-  /* offset-x | offset-y | blur-radius | spread-radius | color
-    - use an intense color at first to test your shadow
-    - after, took grayish-blue hsl value and converted to rgb
-  */
   -webkit-box-shadow: 0px 5px 15px 10px rgba(123, 135, 157, 0.1);
           box-shadow: 0px 5px 15px 10px rgba(123, 135, 157, 0.1);
 }
@@ -45,17 +42,19 @@ body {
   width: 100%;
   border-radius: 10px;
 }
-.card__title {
-  font-size: 0.7rem;
-  color: var(--dark-blue);
-  text-align: center;
-  padding: 1.7em 0 1.5em;
-}
 .card__body {
-  font-size: 0.96rem;
-  color: var(--grayish-blue);
+  font-size: 1rem;
   text-align: center;
-  padding: 0 1em 1.5em;
+  padding: 1.2em 1em 1.5em;
+}
+.card__title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--dark-blue);
+}
+.card__description {
+  margin-top: 1em;
+  color: var(--grayish-blue);
 }
 
 .attribution {
