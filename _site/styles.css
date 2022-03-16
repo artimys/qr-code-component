@@ -7,7 +7,8 @@
 }
 
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -16,9 +17,15 @@ body {
   background-color: var(--light-gray);
   font-family: "Outfit", sans-serif;
   font-size: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   min-height: 100vh;
 }
 
@@ -31,7 +38,8 @@ body {
     - use an intense color at first to test your shadow
     - after, took grayish-blue hsl value and converted to rgb
   */
-  box-shadow: 0px 5px 15px 10px rgba(123, 135, 157, 0.1);
+  -webkit-box-shadow: 0px 5px 15px 10px rgba(123, 135, 157, 0.1);
+          box-shadow: 0px 5px 15px 10px rgba(123, 135, 157, 0.1);
 }
 .card__image {
   width: 100%;
