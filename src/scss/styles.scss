@@ -40,7 +40,7 @@ body {
   box-shadow: 0px 5px 15px 10px rgb(123, 135, 157, 0.1);
 
   &__header {
-    // animation: qrRotateFadeIn 1.5s;
+    animation: qrRotateFadeIn 1.5s;
   }
 
   &__image {
@@ -59,20 +59,20 @@ body {
     font-weight: var(--bold);
     color: var(--dark-blue);
 
-    // opacity: 0;
-    // animation: fadeIn 2s;
-    // animation-delay: .2s;
-    // animation-fill-mode: forwards;
+    opacity: 0;
+    animation: fadeIn 2s;
+    animation-delay: .2s;
+    animation-fill-mode: forwards;
   }
 
   &__description {
     margin-top: 1em;
     color: var(--grayish-blue);
 
-    // opacity: 0;
-    // animation: fadeIn 2s;
-    // animation-delay: .3s;
-    // animation-fill-mode: forwards;
+    opacity: 0;
+    animation: fadeIn 2s;
+    animation-delay: .3s;
+    animation-fill-mode: forwards;
   }
 }
 
